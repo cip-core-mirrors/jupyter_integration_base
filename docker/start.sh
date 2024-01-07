@@ -3,8 +3,8 @@
 ########################
 # Edit these for local storage of things to match you home dir
 
-NOTEBOOKDIR="/Users/${USER}/Notebooks"
-ENV_FILE="/Users/${USER}/jupyter_integration_data_sources.env"
+NOTEBOOKDIR="/home/${USER}/Notebooks"
+ENV_FILE="/home/${USER}/jupyter_integration_data_sources.env"
 
 ########################
 # Advanced Variables, probably don't need to change these

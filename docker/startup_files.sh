@@ -62,6 +62,6 @@ echo "Startup Files Complete"
 echo "trying this"
 
 echo "#!/bin/bash" > ${HOME}/start_jupyter.sh
-echo  "cd /root && jupyter lab --allow-root --no-browser --ip=0.0.0.0 --port=8888" >> ${HOME}/start_jupyter.sh
+echo  "jupyter lab --allow-root --no-browser --ip=0.0.0.0 --port=8888" >> ${HOME}/start_jupyter.sh
 chmod +x ${HOME}/start_jupyter.sh
 
